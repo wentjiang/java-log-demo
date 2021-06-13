@@ -37,8 +37,11 @@
     <logger level="ERROR" name="com.wentjiang.logback.package2">
         <appender-ref ref="PACKAGE2_ERROR_LOG_FILE"/>
     </logger>
-    <logger level="INFO" name="com.wentjiang.logback">
+<!--    <logger level="INFO" name="com.wentjiang.logback">-->
+<!--        <appender-ref ref="STDOUT"/>-->
+<!--    </logger>-->
+    <root>
         <appender-ref ref="STDOUT"/>
-    </logger>
+    </root>
 
 </configuration>

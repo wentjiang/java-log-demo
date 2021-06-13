@@ -1,0 +1,4 @@
+2021-06-12 18:42:32.211 [main] DEBUG c.w.logback.package1.LogTest1 - debug hello world
+2021-06-12 18:42:32.212 [main] INFO  c.w.logback.package1.LogTest1 - info hello world
+2021-06-12 18:42:32.212 [main] WARN  c.w.logback.package1.LogTest1 - warn hello world
+2021-06-12 18:42:32.212 [main] ERROR c.w.logback.package1.LogTest1 - error hello world
